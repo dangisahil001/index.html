@@ -1,0 +1,54 @@
+
+CSS (style.css):
+css
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, section, footer {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #f1f1f1;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+/* Content Styles */
+section#content {
+  background-color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+}
